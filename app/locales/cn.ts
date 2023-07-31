@@ -257,12 +257,12 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    Store: {
-    DefaultTopic: "新的聊天",
-    BotHello: `本工具可以免费使用GPT-3.5
-同时赠送数字人工具：[Heygen官方账号](https://app.heygen.com/home "Heygen官方账号")，
-每个账号可以制作22个数字人视频，[Heygen账号（含1000+积分）](https://p6srqcdscw.feishu.cn/sheets/VjD4snJLRhCzq7tnJz9cuIJinPh "Heygen账号（含1000+积分）")
-如有更多需求，可联系微信：fg200894563`,
+    BotHello: `前往公众号：**[你的公众号名字](你的公众号跳转链接)** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。
+ **提问：** 你可以在这里放一些常用问题吗？
+ **回答：** 当然可以，还可以在这里放一些问题解答，太棒啦！
+ 常见问题与使用说明点击查看 **[你可以在这里放个腾讯文档链接](腾讯文档链接)** 
+卡顿或无响应？可能是用户量太大， [点这里获得独立账号 KEY 使用](你的卖 key 链接)
+欢迎来聊聊  [QQ群](你的 Q 群链接) 或  [公众号](你的公众号跳转链接)`, 
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
